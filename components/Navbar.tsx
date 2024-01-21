@@ -38,11 +38,7 @@ export default function Navbar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
-             
-              <div className="container flex items-center space-x-2">
-              <span className="text-2xl font-bold">Alperen Aktuğ</span>
-                {/* <h3 className="text-2xl font-bold">Alperen Aktuğ</h3> */}
-              </div>
+              <span className="text-2xl font-bold">Alperen Aktuğ</span>                          
             </Link>
             <div className="md:hidden">
               <button
