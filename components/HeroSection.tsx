@@ -40,18 +40,16 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
-        <Link
-          to="about"
+        <Link to="about"
           activeClass="active"
           spy={true}
           smooth={true}
           offset={-100}
           duration={500}
+         
         >
-         
-         <HiArrowDown size={35} className="animate-bounce" />
-         
         </Link>
+        <HiArrowDown    size={35} className="animate-bounce" />
         
       </div>
     </section>
