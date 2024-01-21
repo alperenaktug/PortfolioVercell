@@ -35,6 +35,13 @@ const projects = [
     image: "/YoutubeBasicClone.jpg",
     github: "https://github.com/alperenaktug/youtube-clone-",
    
+  },
+  {
+    name: "YoutubeBasicClone",
+    description:"In this project I designed youtube Clone page using html and css.",
+    image: "/YoutubeBasicClone.jpg",
+    github: "https://github.com/alperenaktug/youtube-clone-"
+   
   }
   
 ]
