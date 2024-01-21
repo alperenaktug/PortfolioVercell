@@ -1,5 +1,5 @@
 "use client" // this is a client component
-import React from "react"
+import React, { Fragment } from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
@@ -48,7 +48,12 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-         <HiArrowDown size={35} className="animate-bounce" />
+          <Fragment>
+
+          <HiArrowDown size={35} className="animate-bounce" />
+
+          </Fragment>
+         
         </Link>
         
       </div>
