@@ -38,7 +38,7 @@ export default function Navbar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <ScrollLink to="home">
-              <span className="text-2xl font-bold">Alperen Aktuğ</span>                          
+            <h3 className="text-2xl font-bold">Alperen Aktuğ</h3>                        
             </ScrollLink>
             <div className="md:hidden">
               <button
