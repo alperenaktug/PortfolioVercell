@@ -1,7 +1,7 @@
 "use client" // this is a client component
 import React from "react"
 import { useState } from "react"
-import { Link as ScrollLink } from "react-scroll/modules"
+import { Link  } from "react-scroll/modules"
 import { useTheme } from "next-themes"
 import { usePathname } from "next/navigation"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
@@ -37,11 +37,11 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-          <ScrollLink to="home">
-          <>
-         <span className="text-2xl font-bold">Alperen Aktuğ</span>
-         </>
-         </ScrollLink>
+          <Link to="home">
+              <div className="container flex items-center space-x-2">
+                <h2 className="text-2xl font-bold">Alperen Aktuğ</h2>
+              </div>
+            </Link>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -62,7 +62,7 @@ export default function Navbar() {
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return (
-                  <ScrollLink
+                  <Link
                     key={idx}
                     to={item.page}
                     className={
@@ -75,7 +75,7 @@ export default function Navbar() {
                     onClick={() => setNavbar(!navbar)}
                   >
                     {item.label}
-                  </ScrollLink>
+                  </Link>
                 )
               })}
               {currentTheme === "dark" ? (
