@@ -4,12 +4,16 @@ import Image from "next/image"
 const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
+  { skill: "Tailwind CSS" },
   { skill: "JavaScript" },
   { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "Firebase" },
   { skill: "Git" },
   { skill: "Wordpress" },
+  { skill: "Java" },
+  { skill: "Spring" },
+  { skill: "MongoDB" },
+  { skill: "PostgreSQL" },
 ]
 
 const AboutSection = () => {
@@ -35,7 +39,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-            I am a 4th year computer engineering student. I have been dealing with the web for 1.5 years.
+            I am a 4th year computer engineering student. I have been dealing with the web for 2 years.
             </p>
             <br />
             <p>
