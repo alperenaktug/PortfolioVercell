@@ -14,6 +14,14 @@ const projects = [
     
   },
   {
+    name: "NetflixClone",
+    description:
+      "In this project, I designed a  N service page using React js.",
+    image: "/netflix.jpeg",
+    github: "https://github.com/alperenaktug/NetflixClone",
+    
+  },
+  {
     name: "GamingProject",
     description: "In this project, I designed a page where games can be searched as options using React js..",
     image: "/GamingProject.jpg",
